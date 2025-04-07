@@ -4,14 +4,11 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  /* border: 1px red solid; */
 }
-/* heading */
 .portfolio span:nth-of-type(1) {
   color: var(--black);
   font-size: 2rem;
   font-weight: bold;
-  /* border: 1px red solid; */
 }
 
 .portfolio span:nth-of-type(2) {
@@ -32,7 +29,6 @@ slider .portfolio .swiper {
   padding: 2rem;
   width: 60rem;
   height: 20rem;
-  /* styles same as work.css */
   background: rgba(255, 255, 255, 0.26);
   border: 7px solid var(--blueCard);
   box-shadow: var(--boxShadow);
@@ -60,6 +56,11 @@ slider .portfolio .swiper {
   border-radius: 19px;
 }
 
+.portfolio a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media screen and (max-width: 480px) {
   .portfolio-slider {
     display: none;
@@ -69,7 +70,6 @@ slider .portfolio .swiper {
     padding: 2rem;
     width: 60rem;
     height: 20rem;
-    /* styles same as work.css */
     background: rgba(255, 255, 255, 0.26);
     border: 7px solid var(--blueCard);
     box-shadow: var(--boxShadow);

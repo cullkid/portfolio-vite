@@ -8,7 +8,6 @@ const Experience = () => {
   return (
     <div className="experience" id="experience">
       <div className="achievement">
-        {/* darkModedarkMode ?  */}
         <div
           className="circle"
           style={{ color: darkMode ? "var(--orange)" : "" }}

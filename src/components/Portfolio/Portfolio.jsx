@@ -17,11 +17,9 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio" id="portfolio">
-      {/* heading */}
       <span style={{ color: darkMode ? "white" : "" }}>Recent Projects</span>
       <span>Portfolio</span>
 
-      {/* slider */}
       <Swiper
         slidesPerView={3}
         className="portfolio-slider"
@@ -31,20 +29,29 @@ const Portfolio = () => {
       >
         <div className="portfolio-slider">
           <SwiperSlide>
-            <img src={Sidebar} alt="" />
-            <span className="span">project</span>
+            <a href="">
+              <img src={Sidebar} alt="" />
+              <span className="span">project</span>
+            </a>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <a href="">
+              <img src={Ecommerce} alt="" />
+              <span className="span">project</span>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ecommerce} alt="" />
-            <span className="span">project</span>
+            <a href="">
+              <img src={MusicApp} alt="" />
+              <span className="span">project</span>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={MusicApp} alt="" />
-            <span className="span">project</span>
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={HOC} alt="" />
-            <span className="span">project</span>
+            <a href="">
+              <img src={HOC} alt="" />
+              <span className="span">project</span>
+            </a>
           </SwiperSlide>
         </div>
       </Swiper>

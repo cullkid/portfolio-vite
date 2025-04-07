@@ -1,4 +1,3 @@
-// import React from "react";
 import "./Testimonial.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -47,7 +46,6 @@ const Testimonial = () => {
         <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
       </div>
       <Swiper
-        // install Swiper modules
         navigation={true}
         modules={[Pagination, Navigation]}
         pagination={{ type: "fraction" }}

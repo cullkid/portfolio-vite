@@ -25,7 +25,6 @@ const Footer = () => {
           spy={true}
           smooth={true}
         >
-          {/* <span>top</span> */}
           <BsArrowUp size={25} className="top1" />
         </Link>
       </div>

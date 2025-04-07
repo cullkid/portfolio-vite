@@ -5,15 +5,12 @@
   margin-bottom: 8rem;
   margin-top: 9rem;
   margin-bottom: 13rem;
-  /* scroll view */
   padding-top: 3rem;
 }
-/* left side */
 .awesome {
   display: flex;
   flex-direction: column;
   position: relative;
-  /* gap: 20px; */
 }
 
 .awesome > :nth-child(1) {
@@ -36,7 +33,6 @@
   height: 2rem;
   margin-top: 1rem;
 }
-/* right sided */
 .cards {
   position: relative;
 }
@@ -44,7 +40,6 @@
   position: absolute;
 }
 
-/* blur */
 .s-blur2 {
   left: 14rem;
   top: 8rem;
