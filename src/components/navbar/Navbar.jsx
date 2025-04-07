@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 import Toggle from "../Toggle/Toggle";
-import "./Navbar.css";
+import "./navbar.css";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
