@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
 import DataWarehouse from "../../img/dataWarehouse.png";
+import Tableau from "../../img/tableau.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
@@ -37,9 +38,9 @@ const Portfolio = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <a href="">
-              <img src={Ecommerce} alt="" />
-              <span className="span">project</span>
+            <a href="https://accident-project-amber.vercel.app/">
+              <img src={Tableau} alt="" />
+              <span className="span">Accident History</span>
             </a>
           </SwiperSlide>
           <SwiperSlide>

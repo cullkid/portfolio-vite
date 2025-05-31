@@ -23,7 +23,7 @@ const Intro = () => {
     <div className="Intro" id="Intro">
       <div className="i-left">
         <div className="i-name">
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Anthony</span>
           <span>
             Frontend Developer with high level of experience in web designing
@@ -34,8 +34,12 @@ const Intro = () => {
           <button className="button i-button">Hire me</button>
         </Link>
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
+          <a href="https://github.com/cullkid?tab=repositories">
+            <img src={Github} alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/anthony-eze-5748b6235/">
+            <img src={LinkedIn} alt="" />
+          </a>
           <img src={Instagram} alt="" />
         </div>
       </div>

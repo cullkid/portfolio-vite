@@ -26,7 +26,7 @@ const Contact = () => {
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
           <div>
-            <a href="">
+            <a href="https://www.linkedin.com/in/anthony-eze-5748b6235/">
               <img src={LinkedIn} alt="" />
             </a>
           </div>
