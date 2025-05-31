@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import DataWarehouse from "../../img/dataWarehouse.png";
-import Tableau from "../../img/tableau.png";
+import Crash from "../../img/crash.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import { Pagination, Navigation } from "swiper/modules";
@@ -37,7 +37,7 @@ const Portfolio = () => {
 
           <SwiperSlide>
             <a href="https://accident-project-amber.vercel.app/">
-              <img src={Tableau} alt="" />
+              <img src={Crash} alt="" />
               <span className="span">Accident History</span>
             </a>
           </SwiperSlide>
